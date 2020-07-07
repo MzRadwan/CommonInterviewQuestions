@@ -19,9 +19,20 @@ public class Main {
         returnedList = change2(tab);
 
         for(Integer elem : returnedList){
-            System.out.print("\t"+elem);
+            System.out.print("\t"+elem+"\n");
 
         }
+
+        String text = "555";
+        int number = Integer.valueOf(text);
+        number *= 3;
+        System.out.println(number);
+        String text2 = Integer.toString(number);
+        int number2 = Integer.parseInt(text2);
+        number2 +=155;
+        System.out.println(number2);
+        text2 += " to jest napis";
+        System.out.println(text2);
 
     }
 
