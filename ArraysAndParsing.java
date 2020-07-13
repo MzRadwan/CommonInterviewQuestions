@@ -1,7 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
+/*
+using Array Lists and parsing from String to Integer and back
+*/
 public class Main {
 
     public static void main(String[] args){
